@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cubo{
+width: 100px;
+height: 100px;
+background-color: purple;
+color: blanchedalmond;
+padding: 2%;
+line-height: 60px;
+font-size: 40px;
+
+}
+.cubo:nth-child(1){/*1*/
+    align-self: flex-start;
+}
+.cubo:nth-child(2){/*2*/
+    align-self: flex-start;
+}
+.cubo:nth-child(3){/*3*/
+    align-self: flex-start;
+}
+.cubo:nth-child(4){/*4*/
+    align-self: center;
+}
+.cubo:nth-child(5){/*5*/
+    align-self: center;
+}
+.cubo:nth-child(6){/*6*/
+    align-self: center;
+}
+.cubo:nth-child(7){/*7*/
+    align-self: flex-end;
+}
